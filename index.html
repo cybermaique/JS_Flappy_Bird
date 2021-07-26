@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+</head>
+<body>
+    <canvas id="game-canvas" width="320" height="480">
+        <style>
+            body {
+                min-height:100vh;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            canvas {
+                border: 1px solid #000;
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+    </canvas>
+    <script src="js/game.js"></script>
+</body>
+</html>
